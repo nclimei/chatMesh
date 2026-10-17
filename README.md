@@ -4,7 +4,8 @@
 chatMesh is an agent workflow for creating FDEM-ready meshes from natural
 language. chatMesh was developed as part of the broader ChatFDEM initiative under the supervision of Professor Giovanni Grasselli at the University of Toronto.
 
-> **Development and use notice:** This is unpublished work that is being actively developed and tested. We welcome collaboration inquiries. 
+> **Development and use notice:** This is unpublished work that is being actively developed and tested. We welcome collaboration inquiries.
+> 
 > Contact: Mei Li (meili.li@mail.utoronto.ca) & Giovanni Grasselli (giovanni.grasselli@utoronto.ca)
 >
 
