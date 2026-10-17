@@ -1,12 +1,15 @@
 # chatMesh
+[![DOI](https://zenodo.org/badge/1296045792.svg)](https://doi.org/10.5281/zenodo.23429526)
 
 chatMesh is an agent workflow for creating FDEM-ready meshes from natural
-language.
+language. chatMesh was developed as part of the broader ChatFDEM initiative under the supervision of Professor Giovanni Grasselli at the University of Toronto.
 
-> **Development and use notice:** This is unpublished work that is being actively developed and tested at the University of Toronto. We welcome collaboration inquiries. 
->
+> **Development and use notice:** This is unpublished work that is being actively developed and tested. We welcome collaboration inquiries. 
 > Contact: Mei Li (meili.li@mail.utoronto.ca) & Giovanni Grasselli (giovanni.grasselli@utoronto.ca)
 >
+
+If you use chatMesh in your research or publications, please cite this work using the following reference:
+- Mei Li. (2026). chatMesh (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23429526
 
 
 ## Demo videos
