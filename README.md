@@ -3,11 +3,7 @@
 chatMesh is an agent workflow for creating FDEM-ready meshes from natural
 language.
 
-> **Development and use notice:** This is unpublished work that is being
-> actively developed and tested. Anyone wishing to use chatMesh for research,
-> commercial, educational, or any other work must first obtain written
-> permission from both Mei Li and Giovanni Grasselli at the University of
-> Toronto. We welcome collaboration inquiries.
+> **Development and use notice:** This is unpublished work that is being actively developed and tested at the University of Toronto. We welcome collaboration inquiries. 
 >
 > Contact: Mei Li (meili.li@mail.utoronto.ca) & Giovanni Grasselli (giovanni.grasselli@utoronto.ca)
 >
@@ -130,6 +126,5 @@ The skill generates the Irazu ready mesh file `.inp`, inspection report, and HTM
 preview in the requested working folder. A folder outside the active Codex
 workspace may require a sandbox permission approval. Change Codex's permission
 settings if you regularly need to write to another location.
-
 
 
