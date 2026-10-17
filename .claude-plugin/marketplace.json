@@ -1,14 +1,14 @@
 {
-  "name": "chatFDEM",
+  "name": "chatMesh",
   "description": "FDEM geometry and mesh generation for Claude Code.",
   "version": "0.1.0",
   "owner": {
-    "name": "chatFDEM contributors"
+    "name": "chatMesh contributors"
   },
   "plugins": [
     {
-      "name": "chatfdem",
-      "source": "./plugins/chatfdem",
+      "name": "chatmesh",
+      "source": "./plugins/chatmesh",
       "description": "Create FDEM-ready Gmsh geometry, meshes, reports, and previews.",
       "category": "Productivity"
     }

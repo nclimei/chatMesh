@@ -5,12 +5,12 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from chatfdem.gmsh_runner import mesh_geo
-from chatfdem.inp import read_inp
-from chatfdem.msh import read_msh
-from chatfdem.preview import write_html_preview
-from chatfdem.nl import generate_geo_from_prompt
-from chatfdem.workflow import run_prompt_workflow
+from chatmesh.gmsh_runner import mesh_geo
+from chatmesh.inp import read_inp
+from chatmesh.msh import read_msh
+from chatmesh.preview import write_html_preview
+from chatmesh.nl import generate_geo_from_prompt
+from chatmesh.workflow import run_prompt_workflow
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]

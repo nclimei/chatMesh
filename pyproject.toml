@@ -3,23 +3,23 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "chatfdem"
+name = "chatmesh"
 version = "0.1.0"
 description = "MVP natural-language-to-Gmsh workflow support for FDEM mesh generation."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [
-  { name = "chatFDEM contributors" }
+  { name = "chatMesh contributors" }
 ]
 dependencies = []
 
 [project.scripts]
-chatfdem = "chatfdem.cli:main"
+chatmesh = "chatmesh.cli:main"
 
 [tool.setuptools.packages.find]
-where = ["plugins/chatfdem/python"]
-include = ["chatfdem*"]
+where = ["plugins/chatmesh/python"]
+include = ["chatmesh*"]
 
 [tool.pytest.ini_options]
-pythonpath = ["plugins/chatfdem/python"]
+pythonpath = ["plugins/chatmesh/python"]

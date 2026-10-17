@@ -1,4 +1,4 @@
-"""Install the local chatFDEM Codex plugin in one command."""
+"""Install the local chatMesh Codex plugin in one command."""
 
 from __future__ import annotations
 
@@ -16,7 +16,7 @@ MINIMUM_PYTHON = (3, 11)
 
 
 def fail(message: str) -> NoReturn:
-    raise SystemExit(f"chatFDEM installer: {message}")
+    raise SystemExit(f"chatMesh installer: {message}")
 
 
 def run(command: list[str], *, capture: bool = False) -> subprocess.CompletedProcess[str]:
@@ -100,10 +100,10 @@ def main() -> int:
         print("WARNING: plugin installed, but Gmsh is not on PATH.", file=sys.stderr)
         print("Install Gmsh before generating meshes: https://gmsh.info/", file=sys.stderr)
     else:
-        launcher = REPO_ROOT / "plugins" / plugin / "scripts" / "chatfdem.py"
+        launcher = REPO_ROOT / "plugins" / plugin / "scripts" / "chatmesh.py"
         run([runtime_python, str(launcher), "doctor"])
 
-    print("chatFDEM is installed. Start a new Codex chat to load the skill.")
+    print("chatMesh is installed. Start a new Codex chat to load the skill.")
     return 0
 
 

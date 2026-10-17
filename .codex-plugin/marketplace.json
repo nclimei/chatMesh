@@ -1,14 +1,14 @@
 {
-  "name": "chatFDEM",
+  "name": "chatMesh",
   "interface": {
-    "displayName": "chatFDEM"
+    "displayName": "chatMesh"
   },
   "plugins": [
     {
-      "name": "chatfdem",
+      "name": "chatmesh",
       "source": {
         "source": "local",
-        "path": "./plugins/chatfdem"
+        "path": "./plugins/chatmesh"
       },
       "policy": {
         "installation": "AVAILABLE",

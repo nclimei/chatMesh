@@ -1,20 +1,21 @@
-# chatFDEM
+# chatMesh
 
-chatFDEM is an agent workflow for creating FDEM-ready meshes from natural
+chatMesh is an agent workflow for creating FDEM-ready meshes from natural
 language.
 
 > **Development and use notice:** This is unpublished work that is being
-> actively developed and tested. Anyone wishing to use chatFDEM for research,
+> actively developed and tested. Anyone wishing to use chatMesh for research,
 > commercial, educational, or any other work must first obtain written
 > permission from both Mei Li and Giovanni Grasselli at the University of
 > Toronto. We welcome collaboration inquiries.
 >
 > Contact: Mei Li (meili.li@mail.utoronto.ca) & Giovanni Grasselli (giovanni.grasselli@utoronto.ca)
+>
 
 
 ## Demo videos
 
-Watch these short demonstrations for an overview of the chatFDEM workflow:
+Watch these short demonstrations for an overview of the chatMesh workflow:
 
 - [2D demo](https://utoronto-my.sharepoint.com/:v:/g/personal/meili_li_mail_utoronto_ca/IQC2mr7jNcnQTatbgx96e7X-AR_5K2ndvDRBZCuyM-7S4jk?e=jaNI8K)
 - [3D demo](https://utoronto-my.sharepoint.com/:v:/g/personal/meili_li_mail_utoronto_ca/IQAZYKxRjmXwQ6HO4rx6dxNDAS1-7QOA6m7bsPBntOBgW9Y?e=OmYp0y)
@@ -26,7 +27,7 @@ try the demonstrated workflow.
 
 ## Install for Codex
 
-These steps install Codex, chatFDEM, and the bundled `$fdem` skill on a
+These steps install Codex, chatMesh, and the bundled `$fdem` skill on a
 computer that does not already have Codex.
 
 ### 1. Install the prerequisites
@@ -88,23 +89,23 @@ Select **Sign in with ChatGPT** and complete authentication. Exit that first
 session after sign-in if you are not yet in the folder where you want to create
 meshes.
 
-### 4. Install chatFDEM
+### 4. Install chatMesh
 
-The marketplace command downloads the repository from GitHub. To install chatFDEM 
+The marketplace command downloads the repository from GitHub. To install chatMesh 
 in Claud, replace 'codex' in the command below to 'claude'.
 
 ```bash
-codex plugin marketplace add nclimei/chatFDEM
-codex plugin add chatfdem@chatFDEM
+codex plugin marketplace add nclimei/chatMesh
+codex plugin add chatmesh@chatMesh
 ```
 
-The plugin installs the `$fdem` skill and the chatFDEM Python module together
+The plugin installs the `$fdem` skill and the chatMesh Python module together
 inside the current user's Codex plugin cache. Python and Gmsh remain system
 prerequisites.
 
-Update an installed chatFDEM
+Update an installed chatMesh
 ```bash
-codex plugin marketplace upgrade chatFDEM
+codex plugin marketplace upgrade chatMesh
 ```
 
 ### 5. Start Codex in the working folder
@@ -113,8 +114,8 @@ Create or open a folder where Codex may write the generated mesh files, then
 start a new Codex session from that folder:
 
 ```bash
-mkdir my-fdem-project
-cd my-fdem-project
+mkdir my-mesh-project
+cd my-mesh-project
 codex
 ```
 
