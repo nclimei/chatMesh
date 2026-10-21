@@ -132,3 +132,6 @@ workspace may require a sandbox permission approval. Change Codex's permission
 settings if you regularly need to write to another location.
 
 
+## Feedback
+
+We'd love to hear your feedback! You may use this [ChatMesh Feedback Survey](https://forms.cloud.microsoft/r/3Wvw8TMj8L) to share your experience, suggest improvements, or request additional features. Your input will help guide the future development of ChatMesh.
